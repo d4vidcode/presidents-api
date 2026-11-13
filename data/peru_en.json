@@ -1,0 +1,2235 @@
+{
+  "country": {
+    "isoCode": "PE",
+    "name": "Peru",
+    "officialName": "Republic of Peru",
+    "independenceDate": "1821-07-28",
+    "governmentSystem": "Presidential republic",
+    "currency": "PEN",
+    "officialLanguages": ["es"]
+  },
+  "parties": [
+    {
+      "code": "militar",
+      "name": "Military",
+      "acronym": null,
+      "spectrum": null,
+      "ideology": [],
+      "foundedAt": null,
+      "founder": null,
+      "active": false
+    },
+    {
+      "code": "independiente",
+      "name": "Independent",
+      "acronym": null,
+      "spectrum": null,
+      "ideology": [],
+      "foundedAt": null,
+      "founder": null,
+      "active": false
+    },
+    {
+      "code": "partido-civil",
+      "name": "Partido Civil",
+      "acronym": "PC",
+      "spectrum": "Center-right",
+      "ideology": ["Civilismo", "Economic liberalism"],
+      "foundedAt": "1871-01-01",
+      "founder": "Manuel Pardo y Lavalle",
+      "active": false
+    },
+    {
+      "code": "partido-democrata",
+      "name": "Partido Demócrata",
+      "acronym": "PD",
+      "spectrum": "Center",
+      "ideology": ["Democracy", "Nationalism"],
+      "foundedAt": "1884-01-01",
+      "founder": "Nicolás de Piérola Villena",
+      "active": false
+    },
+    {
+      "code": "partido-constitucional",
+      "name": "Partido Constitucional",
+      "acronym": "PCon",
+      "spectrum": "Right",
+      "ideology": ["Conservatism", "Constitutionalism"],
+      "foundedAt": "1882-01-01",
+      "founder": "Andrés Avelino Cáceres",
+      "active": false
+    },
+    {
+      "code": "partido-democratico-reformista",
+      "name": "Partido Democrático Reformista",
+      "acronym": "PDR",
+      "spectrum": "Center-right",
+      "ideology": ["Reformism", "Nationalism"],
+      "foundedAt": "1919-01-01",
+      "founder": "Augusto B. Leguía",
+      "active": false
+    },
+    {
+      "code": "movimiento-democratico-peruano",
+      "name": "Movimiento Democrático Peruano",
+      "acronym": "MDP",
+      "spectrum": "Center-right",
+      "ideology": ["Conservatism", "Economic liberalism"],
+      "foundedAt": "1956-01-01",
+      "founder": "Manuel Prado Ugarteche",
+      "active": false
+    },
+    {
+      "code": "apra",
+      "name": "Alianza Popular Revolucionaria Americana",
+      "acronym": "APRA",
+      "spectrum": "Center-left",
+      "ideology": ["Anti-imperialism", "Latin Americanism"],
+      "foundedAt": "1924-05-07",
+      "founder": "Víctor Raúl Haya de la Torre",
+      "active": true
+    },
+    {
+      "code": "accion-popular",
+      "name": "Acción Popular",
+      "acronym": "AP",
+      "spectrum": "Center",
+      "ideology": ["Humanism", "Christian democracy"],
+      "foundedAt": "1956-07-07",
+      "founder": "Fernando Belaunde Terry",
+      "active": true
+    },
+    {
+      "code": "cambio-90",
+      "name": "Cambio 90",
+      "acronym": "C90",
+      "spectrum": "Center-right",
+      "ideology": ["Fujimorism", "Neoliberalism"],
+      "foundedAt": "1989-01-01",
+      "founder": "Alberto Fujimori",
+      "active": false
+    },
+    {
+      "code": "peru-posible",
+      "name": "Perú Posible",
+      "acronym": "PP",
+      "spectrum": "Center",
+      "ideology": ["Social liberalism"],
+      "foundedAt": "1994-01-01",
+      "founder": "Alejandro Toledo",
+      "active": false
+    },
+    {
+      "code": "gana-peru",
+      "name": "Gana Perú",
+      "acronym": "GP",
+      "spectrum": "Left",
+      "ideology": ["Left-wing nationalism", "Democratic socialism"],
+      "foundedAt": "2010-01-01",
+      "founder": "Ollanta Humala",
+      "active": false
+    },
+    {
+      "code": "ppk",
+      "name": "Peruanos Por el Kambio",
+      "acronym": "PPK",
+      "spectrum": "Center-right",
+      "ideology": ["Economic liberalism"],
+      "foundedAt": "2014-01-01",
+      "founder": "Pedro Pablo Kuczynski",
+      "active": false
+    },
+    {
+      "code": "peru-libre",
+      "name": "Perú Libre",
+      "acronym": "PL",
+      "spectrum": "Left",
+      "ideology": ["Marxism", "Socialism"],
+      "foundedAt": "2016-01-01",
+      "founder": "Vladimir Cerrón",
+      "active": true
+    },
+    {
+      "code": "fuerza-popular",
+      "name": "Fuerza Popular",
+      "acronym": "FP",
+      "spectrum": "Right",
+      "ideology": ["Fujimorism", "Conservatism"],
+      "foundedAt": "2010-01-01",
+      "founder": "Keiko Fujimori",
+      "active": true
+    },
+    {
+      "code": "partido-morado",
+      "name": "Partido Morado",
+      "acronym": "PM",
+      "spectrum": "Center",
+      "ideology": ["Centrism", "Republicanism"],
+      "foundedAt": "2017-01-01",
+      "founder": "Julio Guzmán",
+      "active": true
+    }
+  ],
+  "presidents": [
+    {
+      "slug": "jose-de-san-martin",
+      "fullName": "José Francisco de San Martín y Matorras",
+      "commonName": "José de San Martín",
+      "gender": "Male",
+      "birthDate": "1778-02-25",
+      "birthPlace": { "city": "Yapeyú", "region": "Corrientes", "country": "Argentina" },
+      "deathDate": "1850-08-17",
+      "deathPlace": { "city": "Boulogne-sur-Mer", "region": null, "country": "France" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Supreme Protector of Peru",
+        "positionType": "Provisional",
+        "startDate": "1821-07-28",
+        "endDate": "1822-09-20",
+        "comingToPowerMethod": "Other",
+        "leavingPowerMethod": "Resignation",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "francisco-xavier-de-luna-pizarro",
+      "fullName": "Francisco Xavier de Luna Pizarro",
+      "commonName": "Francisco Xavier de Luna Pizarro",
+      "gender": "Male",
+      "birthDate": "1780-11-03",
+      "birthPlace": { "city": "Arequipa", "region": "Arequipa", "country": "Perú" },
+      "deathDate": "1855-02-09",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Interim Governor",
+        "positionType": "Interim",
+        "startDate": "1822-09-20",
+        "endDate": "1822-09-22",
+        "comingToPowerMethod": "Congress Appointment",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "independiente", "name": "Independent", "acronym": null }
+      }]
+    },
+    {
+      "slug": "jose-de-la-mar",
+      "fullName": "José Domingo de La Mar y Cortázar",
+      "commonName": "José de La Mar",
+      "gender": "Male",
+      "birthDate": "1778-05-12",
+      "birthPlace": { "city": "Cuenca", "region": null, "country": "Ecuador" },
+      "deathDate": "1830-10-11",
+      "deathPlace": { "city": "Cartago", "region": null, "country": "Costa Rica" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [
+        {
+          "termNumber": 1,
+          "officialTitle": "President of the Government Junta",
+          "positionType": "Junta",
+          "startDate": "1822-09-21",
+          "endDate": "1823-02-27",
+          "comingToPowerMethod": "Congress Appointment",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        },
+        {
+          "termNumber": 2,
+          "officialTitle": "Constitutional President of the Republic",
+          "positionType": "Constitutional",
+          "startDate": "1827-08-22",
+          "endDate": "1829-06-07",
+          "comingToPowerMethod": "Democratic Election",
+          "leavingPowerMethod": "Coup d'état",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        }
+      ]
+    },
+    {
+      "slug": "manuel-salazar-y-baquijano",
+      "fullName": "Manuel Salazar y Baquijano",
+      "commonName": "Manuel Salazar y Baquijano",
+      "gender": "Male",
+      "birthDate": "1777-06-24",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "1850-08-07",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [
+        {
+          "termNumber": 1,
+          "officialTitle": "President of the Government Junta",
+          "positionType": "Junta",
+          "startDate": "1822-09-21",
+          "endDate": "1823-02-27",
+          "comingToPowerMethod": "Congress Appointment",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "independiente", "name": "Independent", "acronym": null }
+        },
+        {
+          "termNumber": 2,
+          "officialTitle": "In charge of the Executive Power",
+          "positionType": "Interim",
+          "startDate": "1827-06-09",
+          "endDate": "1827-08-22",
+          "comingToPowerMethod": "Constitutional Succession",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "independiente", "name": "Independent", "acronym": null }
+        }
+      ]
+    },
+    {
+      "slug": "jose-bernardo-de-tagle",
+      "fullName": "José Bernardo de Tagle y Portocarrero",
+      "commonName": "José Bernardo de Tagle",
+      "gender": "Male",
+      "birthDate": "1779-03-21",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "1825-09-26",
+      "deathPlace": { "city": "Callao", "region": "Callao", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [
+        {
+          "termNumber": 1,
+          "officialTitle": "Interim President",
+          "positionType": "Interim",
+          "startDate": "1823-02-27",
+          "endDate": "1823-02-28",
+          "comingToPowerMethod": "Congress Appointment",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        },
+        {
+          "termNumber": 2,
+          "officialTitle": "President of the Republic",
+          "positionType": "Constitutional",
+          "startDate": "1823-08-16",
+          "endDate": "1824-02-10",
+          "comingToPowerMethod": "Congress Appointment",
+          "leavingPowerMethod": "Coup d'état",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        }
+      ]
+    },
+    {
+      "slug": "jose-de-la-riva-aguero",
+      "fullName": "José Mariano de la Riva Agüero y Sánchez Boquete",
+      "commonName": "José de la Riva Agüero",
+      "gender": "Male",
+      "birthDate": "1783-05-03",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "1858-05-21",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President of the Republic",
+        "positionType": "Constitutional",
+        "startDate": "1823-02-28",
+        "endDate": "1823-06-23",
+        "comingToPowerMethod": "Congress Appointment",
+        "leavingPowerMethod": "Impeachment",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "antonio-jose-de-sucre",
+      "fullName": "Antonio José de Sucre",
+      "commonName": "Antonio José de Sucre",
+      "gender": "Male",
+      "birthDate": "1795-02-03",
+      "birthPlace": { "city": "Cumaná", "region": null, "country": "Venezuela" },
+      "deathDate": "1830-06-04",
+      "deathPlace": { "city": "Berruecos", "region": null, "country": "Colombia" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Supreme Military Chief",
+        "positionType": "De facto",
+        "startDate": "1823-06-23",
+        "endDate": "1823-07-17",
+        "comingToPowerMethod": "Congress Appointment",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "simon-bolivar",
+      "fullName": "Simón José Antonio de la Santísima Trinidad Bolívar Palacios",
+      "commonName": "Simón Bolívar",
+      "gender": "Male",
+      "birthDate": "1783-07-24",
+      "birthPlace": { "city": "Caracas", "region": null, "country": "Venezuela" },
+      "deathDate": "1830-12-17",
+      "deathPlace": { "city": "Santa Marta", "region": null, "country": "Colombia" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Liberator of Peru",
+        "positionType": "De facto",
+        "startDate": "1824-02-10",
+        "endDate": "1826-01-28",
+        "comingToPowerMethod": "Congress Appointment",
+        "leavingPowerMethod": "Resignation",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "hipolito-unanue",
+      "fullName": "José Hipólito Unanue y Pavón",
+      "commonName": "Hipólito Unanue",
+      "gender": "Male",
+      "birthDate": "1755-08-13",
+      "birthPlace": { "city": "Arica", "region": "Tarapacá", "country": "Perú" },
+      "deathDate": "1833-07-15",
+      "deathPlace": { "city": "Cañete", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President of the Government Council",
+        "positionType": "Provisional",
+        "startDate": "1825-04-01",
+        "endDate": "1826-01-05",
+        "comingToPowerMethod": "Appointed",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "independiente", "name": "Independent", "acronym": null }
+      }]
+    },
+    {
+      "slug": "andres-de-santa-cruz",
+      "fullName": "Andrés de Santa Cruz y Calaumana",
+      "commonName": "Andrés de Santa Cruz",
+      "gender": "Male",
+      "birthDate": "1792-12-05",
+      "birthPlace": { "city": "Huarina", "region": "La Paz", "country": "Bolivia" },
+      "deathDate": "1865-09-25",
+      "deathPlace": { "city": "Beaufort-en-Vallée", "region": null, "country": "France" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [
+        {
+          "termNumber": 1,
+          "officialTitle": "President of the Government Council",
+          "positionType": "Provisional",
+          "startDate": "1826-06-28",
+          "endDate": "1827-06-09",
+          "comingToPowerMethod": "Congress Appointment",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        },
+        {
+          "termNumber": 2,
+          "officialTitle": "Protector of the Peru-Bolivian Confederation",
+          "positionType": "De facto",
+          "startDate": "1836-10-28",
+          "endDate": "1839-02-20",
+          "comingToPowerMethod": "Self-proclamation",
+          "leavingPowerMethod": "Coup d'état",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        }
+      ]
+    },
+    {
+      "slug": "agustin-gamarra",
+      "fullName": "Agustín Gamarra Messia",
+      "commonName": "Agustín Gamarra",
+      "gender": "Male",
+      "birthDate": "1785-08-27",
+      "birthPlace": { "city": "Cusco", "region": "Cusco", "country": "Perú" },
+      "deathDate": "1841-11-18",
+      "deathPlace": { "city": "Ingavi", "region": "La Paz", "country": "Bolivia" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [
+        {
+          "termNumber": 1,
+          "officialTitle": "Provisional President",
+          "positionType": "Provisional",
+          "startDate": "1829-09-01",
+          "endDate": "1829-12-19",
+          "comingToPowerMethod": "Congress Appointment",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        },
+        {
+          "termNumber": 2,
+          "officialTitle": "Constitutional President",
+          "positionType": "Constitutional",
+          "startDate": "1829-12-19",
+          "endDate": "1833-12-20",
+          "comingToPowerMethod": "Democratic Election",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        },
+        {
+          "termNumber": 3,
+          "officialTitle": "Provisional President",
+          "positionType": "Provisional",
+          "startDate": "1839-08-15",
+          "endDate": "1841-11-18",
+          "comingToPowerMethod": "Congress Appointment",
+          "leavingPowerMethod": "Death",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        }
+      ]
+    },
+    {
+      "slug": "pedro-pablo-bermudez",
+      "fullName": "Pedro Pablo Bermúdez Ascarza",
+      "commonName": "Pedro Pablo Bermúdez",
+      "gender": "Male",
+      "birthDate": "1793-06-27",
+      "birthPlace": { "city": "Tarma", "region": "Junín", "country": "Perú" },
+      "deathDate": "1852-03-09",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Supreme Chief",
+        "positionType": "De facto",
+        "startDate": "1834-01-04",
+        "endDate": "1834-04-24",
+        "comingToPowerMethod": "Self-proclamation",
+        "leavingPowerMethod": "Coup d'état",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "luis-jose-de-orbegoso",
+      "fullName": "Luis José de Orbegoso y Moncada",
+      "commonName": "Luis José de Orbegoso",
+      "gender": "Male",
+      "birthDate": "1795-08-25",
+      "birthPlace": { "city": "Usquil", "region": "La Libertad", "country": "Perú" },
+      "deathDate": "1847-02-17",
+      "deathPlace": { "city": "Trujillo", "region": "La Libertad", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Constitutional President",
+        "positionType": "Constitutional",
+        "startDate": "1833-12-21",
+        "endDate": "1835-02-23",
+        "comingToPowerMethod": "Democratic Election",
+        "leavingPowerMethod": "Coup d'état",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "felipe-santiago-salaverry",
+      "fullName": "Felipe Santiago Salaverry del Solar",
+      "commonName": "Felipe Santiago Salaverry",
+      "gender": "Male",
+      "birthDate": "1806-05-03",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "1836-02-18",
+      "deathPlace": { "city": "Arequipa", "region": "Arequipa", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Supreme Chief",
+        "positionType": "De facto",
+        "startDate": "1835-02-25",
+        "endDate": "1836-02-07",
+        "comingToPowerMethod": "Self-proclamation",
+        "leavingPowerMethod": "Death",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "juan-bautista-de-lavalle",
+      "fullName": "Juan Bautista de Lavalle y Zugasti",
+      "commonName": "Juan Bautista de Lavalle",
+      "gender": "Male",
+      "birthDate": "1787-06-24",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "1836-03-09",
+      "deathPlace": { "city": "Arequipa", "region": "Arequipa", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President of the Government Council",
+        "positionType": "Provisional",
+        "startDate": "1835-10-10",
+        "endDate": "1835-12-27",
+        "comingToPowerMethod": "Appointment",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "independiente", "name": "Independent", "acronym": null }
+      }]
+    },
+    {
+      "slug": "pio-tristan",
+      "fullName": "Pío Tristán y Moscoso",
+      "commonName": "Pío Tristán",
+      "gender": "Male",
+      "birthDate": "1773-07-11",
+      "birthPlace": { "city": "Arequipa", "region": "Arequipa", "country": "Perú" },
+      "deathDate": "1860-08-24",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President of the Government Council",
+        "positionType": "Provisional",
+        "startDate": "1837-01-24",
+        "endDate": "1837-04-01",
+        "comingToPowerMethod": "Delegate of Santa Cruz",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "manuel-menendez",
+      "fullName": "Manuel Menéndez Gorozabel",
+      "commonName": "Manuel Menéndez",
+      "gender": "Male",
+      "birthDate": "1793-04-01",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "1847-03-30",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [
+        {
+          "termNumber": 1,
+          "officialTitle": "President of the Council of State",
+          "positionType": "Interim",
+          "startDate": "1840-08-28",
+          "endDate": "1841-07-14",
+          "comingToPowerMethod": "Constitutional Succession",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "independiente", "name": "Independent", "acronym": null }
+        },
+        {
+          "termNumber": 2,
+          "officialTitle": "President of the Council of State",
+          "positionType": "Interim",
+          "startDate": "1841-07-14",
+          "endDate": "1842-08-16",
+          "comingToPowerMethod": "Constitutional Succession",
+          "leavingPowerMethod": "Coup d'état",
+          "mainParty": { "id": "independiente", "name": "Independent", "acronym": null }
+        },
+        {
+          "termNumber": 3,
+          "officialTitle": "President by succession of the Council of State",
+          "positionType": "Interim",
+          "startDate": "1844-10-07",
+          "endDate": "1845-04-20",
+          "comingToPowerMethod": "Constitutional Succession",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "independiente", "name": "Independent", "acronym": null }
+        }
+      ]
+    },
+    {
+      "slug": "juan-crisostomo-torrico",
+      "fullName": "Juan Crisóstomo Torrico González",
+      "commonName": "Juan Crisóstomo Torrico",
+      "gender": "Male",
+      "birthDate": "1808-01-21",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "1875-03-27",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Second Vice President in charge of command",
+        "positionType": "De facto",
+        "startDate": "1842-08-16",
+        "endDate": "1842-10-17",
+        "comingToPowerMethod": "Coup d'état",
+        "leavingPowerMethod": "Coup d'état",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "juan-francisco-de-vidal",
+      "fullName": "Juan Francisco de Vidal La Hoz",
+      "commonName": "Juan Francisco de Vidal",
+      "gender": "Male",
+      "birthDate": "1800-04-02",
+      "birthPlace": { "city": "Supe", "region": "Lima", "country": "Perú" },
+      "deathDate": "1863-03-29",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Second Vice President in charge of command",
+        "positionType": "De facto",
+        "startDate": "1842-07-28",
+        "endDate": "1843-03-15",
+        "comingToPowerMethod": "Coup d'état",
+        "leavingPowerMethod": "Coup d'état",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "justo-figuerola",
+      "fullName": "Justo Modesto Figuerola de Estrada",
+      "commonName": "Justo Figuerola",
+      "gender": "Male",
+      "birthDate": "1771-03-18",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "1854-05-23",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President by succession (Vice President in charge)",
+        "positionType": "Interim",
+        "startDate": "1843-03-16",
+        "endDate": "1843-03-19",
+        "comingToPowerMethod": "Constitutional Succession",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "independiente", "name": "Independent", "acronym": null }
+      }]
+    },
+    {
+      "slug": "manuel-ignacio-de-vivanco",
+      "fullName": "Manuel Ignacio de Vivanco Iturralde",
+      "commonName": "Manuel Ignacio de Vivanco",
+      "gender": "Male",
+      "birthDate": "1806-06-15",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "1873-09-16",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Supreme Delegate",
+        "positionType": "De facto",
+        "startDate": "1843-04-17",
+        "endDate": "1844-06-17",
+        "comingToPowerMethod": "Self-proclamation",
+        "leavingPowerMethod": "Coup d'état",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "domingo-nieto",
+      "fullName": "Domingo Nieto y Márquez",
+      "commonName": "Domingo Nieto",
+      "gender": "Male",
+      "birthDate": "1803-08-05",
+      "birthPlace": { "city": "Ilo", "region": "Moquegua", "country": "Perú" },
+      "deathDate": "1844-02-17",
+      "deathPlace": { "city": "Cusco", "region": "Cusco", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President of the Provisional Government Junta",
+        "positionType": "De facto",
+        "startDate": "1843-09-03",
+        "endDate": "1844-02-17",
+        "comingToPowerMethod": "Coup d'état",
+        "leavingPowerMethod": "Death",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "domingo-elias",
+      "fullName": "Domingo Elías Carbajo",
+      "commonName": "Domingo Elías",
+      "gender": "Male",
+      "birthDate": "1805-12-08",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "1867-04-03",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Prefect in charge of the Northern Command",
+        "positionType": "De facto",
+        "startDate": "1844-06-17",
+        "endDate": "1844-08-10",
+        "comingToPowerMethod": "Coup d'état",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "independiente", "name": "Independent", "acronym": null }
+      }]
+    },
+    {
+      "slug": "ramon-castilla",
+      "fullName": "Ramón Castilla y Marquesado",
+      "commonName": "Ramón Castilla",
+      "gender": "Male",
+      "birthDate": "1797-08-31",
+      "birthPlace": { "city": "San Lorenzo de Tarapacá", "region": "Tarapacá", "country": "Perú" },
+      "deathDate": "1867-05-30",
+      "deathPlace": { "city": "Tiliviche", "region": "Tarapacá", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Medium",
+      "periods": [
+        {
+          "termNumber": 1,
+          "officialTitle": "President of the Republic appointed by Congress",
+          "positionType": "Constitutional",
+          "startDate": "1845-04-20",
+          "endDate": "1851-04-20",
+          "comingToPowerMethod": "Democratic Election",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        },
+        {
+          "termNumber": 2,
+          "officialTitle": "Provisional President",
+          "positionType": "Provisional",
+          "startDate": "1855-01-05",
+          "endDate": "1857-04-01",
+          "comingToPowerMethod": "Coup d'état",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        },
+        {
+          "termNumber": 3,
+          "officialTitle": "Constitutional President",
+          "positionType": "Constitutional",
+          "startDate": "1858-10-25",
+          "endDate": "1862-10-24",
+          "comingToPowerMethod": "Democratic Election",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        },
+        {
+          "termNumber": 4,
+          "officialTitle": "Provisional President",
+          "positionType": "Provisional",
+          "startDate": "1863-01-01",
+          "endDate": "1863-04-09",
+          "comingToPowerMethod": "Congress Appointment",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        }
+      ]
+    },
+    {
+      "slug": "jose-rufino-echenique",
+      "fullName": "José Rufino Echenique Benavente",
+      "commonName": "José Rufino Echenique",
+      "gender": "Male",
+      "birthDate": "1808-11-16",
+      "birthPlace": { "city": "Puno", "region": "Puno", "country": "Perú" },
+      "deathDate": "1887-06-16",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Medium",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President of the Republic",
+        "positionType": "Constitutional",
+        "startDate": "1851-04-20",
+        "endDate": "1855-01-05",
+        "comingToPowerMethod": "Democratic Election",
+        "leavingPowerMethod": "Coup d'état",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "jose-miguel-medina",
+      "fullName": "José Miguel Medina",
+      "commonName": "José Miguel Medina",
+      "gender": "Male",
+      "birthDate": "1799-09-29",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "1868-05-19",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President by succession of the Council of State",
+        "positionType": "Interim",
+        "startDate": "1854-07-17",
+        "endDate": "1855-01-05",
+        "comingToPowerMethod": "Constitutional Succession",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "independiente", "name": "Independent", "acronym": null }
+      }]
+    },
+    {
+      "slug": "jose-maria-raygada",
+      "fullName": "José María Raygada",
+      "commonName": "José María Raygada",
+      "gender": "Male",
+      "birthDate": "1795-04-17",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "1859-06-20",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President by succession (President of the Council of Ministers)",
+        "positionType": "Interim",
+        "startDate": "1857-04-01",
+        "endDate": "1858-10-25",
+        "comingToPowerMethod": "Constitutional Succession",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "independiente", "name": "Independent", "acronym": null }
+      }]
+    },
+    {
+      "slug": "miguel-de-san-roman",
+      "fullName": "Miguel de San Román y Meza",
+      "commonName": "Miguel de San Román",
+      "gender": "Male",
+      "birthDate": "1802-05-17",
+      "birthPlace": { "city": "Puno", "region": "Puno", "country": "Perú" },
+      "deathDate": "1863-04-03",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Medium",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Constitutional President",
+        "positionType": "Constitutional",
+        "startDate": "1862-10-24",
+        "endDate": "1863-04-03",
+        "comingToPowerMethod": "Democratic Election",
+        "leavingPowerMethod": "Death",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "pedro-diez-canseco",
+      "fullName": "Pedro Diez Canseco Corbacho",
+      "commonName": "Pedro Diez Canseco",
+      "gender": "Male",
+      "birthDate": "1815-01-31",
+      "birthPlace": { "city": "Arequipa", "region": "Arequipa", "country": "Perú" },
+      "deathDate": "1893-04-03",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [
+        {
+          "termNumber": 1,
+          "officialTitle": "Interim President",
+          "positionType": "Interim",
+          "startDate": "1863-04-03",
+          "endDate": "1863-08-05",
+          "comingToPowerMethod": "Constitutional Succession",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        },
+        {
+          "termNumber": 2,
+          "officialTitle": "Interim President",
+          "positionType": "Interim",
+          "startDate": "1865-11-26",
+          "endDate": "1865-12-06",
+          "comingToPowerMethod": "Constitutional Succession",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        },
+        {
+          "termNumber": 3,
+          "officialTitle": "Interim President",
+          "positionType": "Interim",
+          "startDate": "1868-01-08",
+          "endDate": "1868-08-02",
+          "comingToPowerMethod": "Constitutional Succession",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        }
+      ]
+    },
+    {
+      "slug": "juan-antonio-pezet",
+      "fullName": "Juan Antonio Pezet Rodríguez",
+      "commonName": "Juan Antonio Pezet",
+      "gender": "Male",
+      "birthDate": "1810-06-11",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "1879-03-24",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Medium",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Constitutional President",
+        "positionType": "Constitutional",
+        "startDate": "1863-08-05",
+        "endDate": "1865-11-25",
+        "comingToPowerMethod": "Constitutional Succession",
+        "leavingPowerMethod": "Coup d'état",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "mariano-ignacio-prado",
+      "fullName": "Mariano Ignacio Prado Ochoa",
+      "commonName": "Mariano Ignacio Prado",
+      "gender": "Male",
+      "birthDate": "1826-12-18",
+      "birthPlace": { "city": "Huánuco", "region": "Huánuco", "country": "Perú" },
+      "deathDate": "1901-11-05",
+      "deathPlace": { "city": "Paris", "region": null, "country": "France" },
+      "photoUrl": null,
+      "dataConfidence": "Medium",
+      "periods": [
+        {
+          "termNumber": 1,
+          "officialTitle": "Provisional President",
+          "positionType": "Provisional",
+          "startDate": "1865-11-26",
+          "endDate": "1868-01-08",
+          "comingToPowerMethod": "Coup d'état",
+          "leavingPowerMethod": "Resignation",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        },
+        {
+          "termNumber": 2,
+          "officialTitle": "Constitutional President",
+          "positionType": "Constitutional",
+          "startDate": "1876-08-02",
+          "endDate": "1879-12-18",
+          "comingToPowerMethod": "Democratic Election",
+          "leavingPowerMethod": "Coup d'état",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        }
+      ]
+    },
+    {
+      "slug": "jose-balta",
+      "fullName": "José Balta y Montero",
+      "commonName": "José Balta",
+      "gender": "Male",
+      "birthDate": "1814-04-25",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "1872-07-26",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Medium",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Constitutional President",
+        "positionType": "Constitutional",
+        "startDate": "1868-08-02",
+        "endDate": "1872-07-26",
+        "comingToPowerMethod": "Democratic Election",
+        "leavingPowerMethod": "Death",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "mariano-herencia-zevallos",
+      "fullName": "Mariano Herencia Zevallos",
+      "commonName": "Mariano Herencia Zevallos",
+      "gender": "Male",
+      "birthDate": "1820-10-15",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "1873-04-23",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President by succession",
+        "positionType": "Interim",
+        "startDate": "1872-07-26",
+        "endDate": "1872-08-02",
+        "comingToPowerMethod": "Constitutional Succession",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "manuel-pardo-y-lavalle",
+      "fullName": "Manuel Pardo y Lavalle",
+      "commonName": "Manuel Pardo",
+      "gender": "Male",
+      "birthDate": "1834-08-09",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "1878-11-16",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Medium",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Constitutional President",
+        "positionType": "Constitutional",
+        "startDate": "1872-08-02",
+        "endDate": "1876-08-02",
+        "comingToPowerMethod": "Democratic Election",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "partido-civil", "name": "Partido Civil", "acronym": "PC" }
+      }]
+    },
+    {
+      "slug": "luis-la-puerta",
+      "fullName": "Luis La Puerta de Mendoza",
+      "commonName": "Luis La Puerta",
+      "gender": "Male",
+      "birthDate": "1811-08-25",
+      "birthPlace": { "city": "Cusco", "region": "Cusco", "country": "Perú" },
+      "deathDate": "1896-10-05",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President by succession",
+        "positionType": "Interim",
+        "startDate": "1879-12-18",
+        "endDate": "1879-12-23",
+        "comingToPowerMethod": "Constitutional Succession",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "nicolas-de-pierola",
+      "fullName": "Nicolás de Piérola Villena",
+      "commonName": "Nicolás de Piérola",
+      "gender": "Male",
+      "birthDate": "1839-01-05",
+      "birthPlace": { "city": "Arequipa", "region": "Arequipa", "country": "Perú" },
+      "deathDate": "1913-06-23",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Medium",
+      "periods": [
+        {
+          "termNumber": 1,
+          "officialTitle": "Supreme Chief",
+          "positionType": "De facto",
+          "startDate": "1879-12-23",
+          "endDate": "1881-11-28",
+          "comingToPowerMethod": "Self-proclamation",
+          "leavingPowerMethod": "Resignation",
+          "mainParty": { "id": "independiente", "name": "Independent", "acronym": null }
+        },
+        {
+          "termNumber": 2,
+          "officialTitle": "Constitutional President",
+          "positionType": "Constitutional",
+          "startDate": "1895-09-08",
+          "endDate": "1899-09-08",
+          "comingToPowerMethod": "Democratic Election",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "partido-democrata", "name": "Partido Demócrata", "acronym": "PD" }
+        }
+      ]
+    },
+    {
+      "slug": "francisco-garcia-calderon",
+      "fullName": "Francisco García Calderón Landa",
+      "commonName": "Francisco García Calderón",
+      "gender": "Male",
+      "birthDate": "1834-04-02",
+      "birthPlace": { "city": "Arequipa", "region": "Arequipa", "country": "Perú" },
+      "deathDate": "1905-09-21",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Medium",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President of the Republic",
+        "positionType": "Provisional",
+        "startDate": "1881-03-12",
+        "endDate": "1881-09-28",
+        "comingToPowerMethod": "Open Town Hall Election",
+        "leavingPowerMethod": "Removal",
+        "mainParty": { "id": "independiente", "name": "Independent", "acronym": null }
+      }]
+    },
+    {
+      "slug": "lizardo-montero",
+      "fullName": "Lizardo Montero Flores",
+      "commonName": "Lizardo Montero",
+      "gender": "Male",
+      "birthDate": "1832-05-27",
+      "birthPlace": { "city": "Piura", "region": "Piura", "country": "Perú" },
+      "deathDate": "1905-02-06",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Medium",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Vice President in charge of the Executive Power",
+        "positionType": "Constitutional",
+        "startDate": "1881-09-28",
+        "endDate": "1883-10-27",
+        "comingToPowerMethod": "Constitutional Succession",
+        "leavingPowerMethod": "Coup d'état",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "miguel-iglesias",
+      "fullName": "Miguel Iglesias Pino de Arce",
+      "commonName": "Miguel Iglesias",
+      "gender": "Male",
+      "birthDate": "1822-06-11",
+      "birthPlace": { "city": "Celendín", "region": "Cajamarca", "country": "Perú" },
+      "deathDate": "1901-11-07",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Medium",
+      "periods": [
+        {
+          "termNumber": 1,
+          "officialTitle": "Supreme Chief",
+          "positionType": "De facto",
+          "startDate": "1882-08-31",
+          "endDate": "1882-12-30",
+          "comingToPowerMethod": "Self-proclamation",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        },
+        {
+          "termNumber": 2,
+          "officialTitle": "Regenerator President",
+          "positionType": "Provisional",
+          "startDate": "1882-12-30",
+          "endDate": "1885-12-03",
+          "comingToPowerMethod": "Assembly Appointment",
+          "leavingPowerMethod": "Resignation",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        }
+      ]
+    },
+    {
+      "slug": "antonio-arenas",
+      "fullName": "Antonio Arenas Merino",
+      "commonName": "Antonio Arenas",
+      "gender": "Male",
+      "birthDate": "1808-07-13",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "1891-12-27",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President of the Government Junta",
+        "positionType": "Junta",
+        "startDate": "1885-12-03",
+        "endDate": "1886-06-03",
+        "comingToPowerMethod": "Congress Appointment",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "independiente", "name": "Independent", "acronym": null }
+      }]
+    },
+    {
+      "slug": "andres-avelino-caceres",
+      "fullName": "Andrés Avelino Cáceres Dorregaray",
+      "commonName": "Andrés Avelino Cáceres",
+      "gender": "Male",
+      "birthDate": "1836-02-04",
+      "birthPlace": { "city": "Ayacucho", "region": "Ayacucho", "country": "Perú" },
+      "deathDate": "1923-10-10",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Medium",
+      "periods": [
+        {
+          "termNumber": 1,
+          "officialTitle": "Constitutional President",
+          "positionType": "Constitutional",
+          "startDate": "1886-06-03",
+          "endDate": "1890-08-10",
+          "comingToPowerMethod": "Democratic Election",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "partido-constitucional", "name": "Partido Constitucional", "acronym": "PCon" }
+        },
+        {
+          "termNumber": 2,
+          "officialTitle": "Constitutional President",
+          "positionType": "Constitutional",
+          "startDate": "1894-08-10",
+          "endDate": "1895-03-20",
+          "comingToPowerMethod": "Democratic Election",
+          "leavingPowerMethod": "Coup d'état",
+          "mainParty": { "id": "partido-constitucional", "name": "Partido Constitucional", "acronym": "PCon" }
+        }
+      ]
+    },
+    {
+      "slug": "remigio-morales-bermudez",
+      "fullName": "Remigio Morales Bermúdez",
+      "commonName": "Remigio Morales Bermúdez",
+      "gender": "Male",
+      "birthDate": "1836-09-30",
+      "birthPlace": { "city": "Pica", "region": "Tarapacá", "country": "Perú" },
+      "deathDate": "1894-04-01",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Medium",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Constitutional President",
+        "positionType": "Constitutional",
+        "startDate": "1890-08-10",
+        "endDate": "1894-04-01",
+        "comingToPowerMethod": "Democratic Election",
+        "leavingPowerMethod": "Death",
+        "mainParty": { "id": "partido-constitucional", "name": "Partido Constitucional", "acronym": "PCon" }
+      }]
+    },
+    {
+      "slug": "justiniano-borgono",
+      "fullName": "Justiniano Borgoño Castañeda",
+      "commonName": "Justiniano Borgoño",
+      "gender": "Male",
+      "birthDate": "1836-09-05",
+      "birthPlace": { "city": "Trujillo", "region": "La Libertad", "country": "Perú" },
+      "deathDate": "1921-01-15",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President by succession",
+        "positionType": "Interim",
+        "startDate": "1894-04-01",
+        "endDate": "1894-08-10",
+        "comingToPowerMethod": "Constitutional Succession",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "manuel-candamo",
+      "fullName": "Manuel González de Candamo e Iriarte",
+      "commonName": "Manuel Candamo",
+      "gender": "Male",
+      "birthDate": "1842-07-14",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "1904-05-07",
+      "deathPlace": { "city": "Arequipa", "region": "Arequipa", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Medium",
+      "periods": [
+        {
+          "termNumber": 1,
+          "officialTitle": "President of the Government Junta",
+          "positionType": "Junta",
+          "startDate": "1895-03-20",
+          "endDate": "1895-09-08",
+          "comingToPowerMethod": "Appointment",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "independiente", "name": "Independent", "acronym": null }
+        },
+        {
+          "termNumber": 2,
+          "officialTitle": "Constitutional President",
+          "positionType": "Constitutional",
+          "startDate": "1903-09-08",
+          "endDate": "1904-05-07",
+          "comingToPowerMethod": "Democratic Election",
+          "leavingPowerMethod": "Death",
+          "mainParty": { "id": "partido-civil", "name": "Partido Civil", "acronym": "PC" }
+        }
+      ]
+    },
+    {
+      "slug": "eduardo-lopez-de-romana",
+      "fullName": "Eduardo López de Romaña y Alvizuri",
+      "commonName": "Eduardo López de Romaña",
+      "gender": "Male",
+      "birthDate": "1847-03-19",
+      "birthPlace": { "city": "Arequipa", "region": "Arequipa", "country": "Perú" },
+      "deathDate": "1912-05-26",
+      "deathPlace": { "city": "Yura", "region": "Arequipa", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Medium",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Constitutional President",
+        "positionType": "Constitutional",
+        "startDate": "1899-09-08",
+        "endDate": "1903-09-08",
+        "comingToPowerMethod": "Democratic Election",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "partido-civil", "name": "Partido Civil", "acronym": "PC" }
+      }]
+    },
+    {
+      "slug": "serapio-calderon",
+      "fullName": "Serapio Calderón Lazo de la Vega",
+      "commonName": "Serapio Calderón",
+      "gender": "Male",
+      "birthDate": "1843-09-14",
+      "birthPlace": { "city": "Paucartambo", "region": "Cusco", "country": "Perú" },
+      "deathDate": "1922-04-03",
+      "deathPlace": { "city": "Cusco", "region": "Cusco", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Low",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President by succession",
+        "positionType": "Interim",
+        "startDate": "1904-05-07",
+        "endDate": "1904-09-24",
+        "comingToPowerMethod": "Constitutional Succession",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "partido-civil", "name": "Partido Civil", "acronym": "PC" }
+      }]
+    },
+    {
+      "slug": "jose-pardo-y-barreda",
+      "fullName": "José Pardo y Barreda",
+      "commonName": "José Pardo y Barreda",
+      "gender": "Male",
+      "birthDate": "1864-02-24",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "1947-08-03",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Medium",
+      "periods": [
+        {
+          "termNumber": 1,
+          "officialTitle": "Constitutional President",
+          "positionType": "Constitutional",
+          "startDate": "1904-09-24",
+          "endDate": "1908-09-24",
+          "comingToPowerMethod": "Democratic Election",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "partido-civil", "name": "Partido Civil", "acronym": "PC" }
+        },
+        {
+          "termNumber": 2,
+          "officialTitle": "Constitutional President",
+          "positionType": "Constitutional",
+          "startDate": "1915-08-18",
+          "endDate": "1919-07-04",
+          "comingToPowerMethod": "Democratic Election",
+          "leavingPowerMethod": "Coup d'état",
+          "mainParty": { "id": "partido-civil", "name": "Partido Civil", "acronym": "PC" }
+        }
+      ]
+    },
+    {
+      "slug": "augusto-b-leguia",
+      "fullName": "Augusto Bernardino Leguía y Salcedo",
+      "commonName": "Augusto B. Leguía",
+      "gender": "Male",
+      "birthDate": "1863-02-19",
+      "birthPlace": { "city": "Lambayeque", "region": "Lambayeque", "country": "Perú" },
+      "deathDate": "1932-02-06",
+      "deathPlace": { "city": "Callao", "region": "Callao", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "Medium",
+      "periods": [
+        {
+          "termNumber": 1,
+          "officialTitle": "Constitutional President",
+          "positionType": "Constitutional",
+          "startDate": "1908-09-24",
+          "endDate": "1912-09-24",
+          "comingToPowerMethod": "Democratic Election",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "partido-civil", "name": "Partido Civil", "acronym": "PC" }
+        },
+        {
+          "termNumber": 2,
+          "officialTitle": "Provisional President",
+          "positionType": "Provisional",
+          "startDate": "1919-07-04",
+          "endDate": "1919-10-12",
+          "comingToPowerMethod": "Coup d'état",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "partido-democratico-reformista", "name": "Partido Democrático Reformista", "acronym": "PDR" }
+        },
+        {
+          "termNumber": 3,
+          "officialTitle": "Constitutional President",
+          "positionType": "Constitutional",
+          "startDate": "1919-10-12",
+          "endDate": "1930-08-25",
+          "comingToPowerMethod": "Congress Appointment",
+          "leavingPowerMethod": "Coup d'état",
+          "mainParty": { "id": "partido-democratico-reformista", "name": "Partido Democrático Reformista", "acronym": "PDR" }
+        }
+      ]
+    },
+    {
+      "slug": "guillermo-billinghurst",
+      "fullName": "Guillermo Enrique Billinghurst Angulo",
+      "commonName": "Guillermo Billinghurst",
+      "gender": "Male",
+      "birthDate": "1851-07-27",
+      "birthPlace": { "city": "Arica", "region": "Tarapacá", "country": "Perú" },
+      "deathDate": "1915-06-28",
+      "deathPlace": { "city": "Iquique", "region": "Tarapacá", "country": "Chile" },
+      "photoUrl": null,
+      "dataConfidence": "Medium",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Constitutional President",
+        "positionType": "Constitutional",
+        "startDate": "1912-09-24",
+        "endDate": "1914-02-04",
+        "comingToPowerMethod": "Democratic Election",
+        "leavingPowerMethod": "Coup d'état",
+        "mainParty": { "id": "partido-democrata", "name": "Partido Demócrata", "acronym": "PD" }
+      }]
+    },
+    {
+      "slug": "oscar-benavides",
+      "fullName": "Óscar Raymundo Benavides Larrea",
+      "commonName": "Óscar R. Benavides",
+      "gender": "Male",
+      "birthDate": "1876-03-15",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "1945-07-02",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [
+        {
+          "termNumber": 1,
+          "officialTitle": "President of the Government Junta",
+          "positionType": "Junta",
+          "startDate": "1914-02-04",
+          "endDate": "1914-05-15",
+          "comingToPowerMethod": "Coup d'état",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        },
+        {
+          "termNumber": 2,
+          "officialTitle": "Provisional President",
+          "positionType": "Provisional",
+          "startDate": "1914-05-15",
+          "endDate": "1915-08-18",
+          "comingToPowerMethod": "Congress Appointment",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        },
+        {
+          "termNumber": 3,
+          "officialTitle": "Constitutional President",
+          "positionType": "Constitutional",
+          "startDate": "1933-04-30",
+          "endDate": "1939-12-08",
+          "comingToPowerMethod": "Congress Appointment",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        }
+      ]
+    },
+    {
+      "slug": "manuel-maria-ponce-brousset",
+      "fullName": "Manuel María Ponce Brousset",
+      "commonName": "Manuel María Ponce Brousset",
+      "gender": "Male",
+      "birthDate": "1874-09-08",
+      "birthPlace": { "city": "Arequipa", "region": "Arequipa", "country": "Perú" },
+      "deathDate": "1966-05-09",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President of the Government Junta",
+        "positionType": "Junta",
+        "startDate": "1930-08-25",
+        "endDate": "1930-08-28",
+        "comingToPowerMethod": "Coup d'état",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "luis-miguel-sanchez-cerro",
+      "fullName": "Luis Miguel Sánchez Cerro",
+      "commonName": "Luis Sánchez Cerro",
+      "gender": "Male",
+      "birthDate": "1889-08-12",
+      "birthPlace": { "city": "Piura", "region": "Piura", "country": "Perú" },
+      "deathDate": "1933-04-30",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [
+        {
+          "termNumber": 1,
+          "officialTitle": "President of the Government Junta",
+          "positionType": "Junta",
+          "startDate": "1930-08-28",
+          "endDate": "1931-03-01",
+          "comingToPowerMethod": "Coup d'état",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        },
+        {
+          "termNumber": 2,
+          "officialTitle": "Constitutional President",
+          "positionType": "Constitutional",
+          "startDate": "1931-12-08",
+          "endDate": "1933-04-30",
+          "comingToPowerMethod": "Democratic Election",
+          "leavingPowerMethod": "Death",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        }
+      ]
+    },
+    {
+      "slug": "ricardo-leoncio-elias-arias",
+      "fullName": "Ricardo Leoncio Elías Arias",
+      "commonName": "Ricardo Leoncio Elías",
+      "gender": "Male",
+      "birthDate": "1874-08-12",
+      "birthPlace": { "city": "Pisco", "region": "Ica", "country": "Perú" },
+      "deathDate": "1951-11-20",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President of the Provisional Junta",
+        "positionType": "Junta",
+        "startDate": "1931-03-01",
+        "endDate": "1931-03-05",
+        "comingToPowerMethod": "Junta of Notables",
+        "leavingPowerMethod": "Coup d'état",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "gustavo-jimenez",
+      "fullName": "Gustavo A. Jiménez",
+      "commonName": "Gustavo Jiménez",
+      "gender": "Male",
+      "birthDate": "1886-04-05",
+      "birthPlace": { "city": "Cerro de Pasco", "region": "Pasco", "country": "Perú" },
+      "deathDate": "1933-10-15",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President of the Transitional Junta",
+        "positionType": "Junta",
+        "startDate": "1931-03-05",
+        "endDate": "1931-03-11",
+        "comingToPowerMethod": "Coup d'état",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "david-samanez-ocampo",
+      "fullName": "David Samanez Ocampo y Sobrino",
+      "commonName": "David Samanez Ocampo",
+      "gender": "Male",
+      "birthDate": "1866-11-04",
+      "birthPlace": { "city": "Andahuaylas", "region": "Apurímac", "country": "Perú" },
+      "deathDate": "1947-07-13",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President of the Government Junta",
+        "positionType": "Junta",
+        "startDate": "1931-03-11",
+        "endDate": "1931-12-08",
+        "comingToPowerMethod": "Junta of Notables",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "independiente", "name": "Independent", "acronym": null }
+      }]
+    },
+    {
+      "slug": "manuel-prado-ugarteche",
+      "fullName": "Manuel Prado Ugarteche",
+      "commonName": "Manuel Prado Ugarteche",
+      "gender": "Male",
+      "birthDate": "1889-04-21",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "1967-08-15",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [
+        {
+          "termNumber": 1,
+          "officialTitle": "Constitutional President",
+          "positionType": "Constitutional",
+          "startDate": "1939-12-08",
+          "endDate": "1945-07-28",
+          "comingToPowerMethod": "Democratic Election",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "partido-civil", "name": "Partido Civil", "acronym": "PC" }
+        },
+        {
+          "termNumber": 2,
+          "officialTitle": "Constitutional President",
+          "positionType": "Constitutional",
+          "startDate": "1956-07-28",
+          "endDate": "1962-07-18",
+          "comingToPowerMethod": "Democratic Election",
+          "leavingPowerMethod": "Coup d'état",
+          "mainParty": { "id": "movimiento-democratico-peruano", "name": "Movimiento Democrático Peruano", "acronym": "MDP" }
+        }
+      ]
+    },
+    {
+      "slug": "jose-luis-bustamante-y-rivero",
+      "fullName": "José Luis Bustamante y Rivero",
+      "commonName": "José Luis Bustamante y Rivero",
+      "gender": "Male",
+      "birthDate": "1894-01-15",
+      "birthPlace": { "city": "Arequipa", "region": "Arequipa", "country": "Perú" },
+      "deathDate": "1989-01-11",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Constitutional President",
+        "positionType": "Constitutional",
+        "startDate": "1945-07-28",
+        "endDate": "1948-10-27",
+        "comingToPowerMethod": "Democratic Election",
+        "leavingPowerMethod": "Coup d'état",
+        "mainParty": { "id": "independiente", "name": "Independent", "acronym": null }
+      }]
+    },
+    {
+      "slug": "manuel-odria-amoretti",
+      "fullName": "Manuel Apolinario Odría Amoretti",
+      "commonName": "Manuel Odría Amoretti",
+      "gender": "Male",
+      "birthDate": "1897-11-26",
+      "birthPlace": { "city": "Tarma", "region": "Junín", "country": "Perú" },
+      "deathDate": "1974-02-18",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [
+        {
+          "termNumber": 1,
+          "officialTitle": "President of the Military Government Junta",
+          "positionType": "Junta",
+          "startDate": "1948-10-27",
+          "endDate": "1950-05-10",
+          "comingToPowerMethod": "Coup d'état",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        },
+        {
+          "termNumber": 2,
+          "officialTitle": "Constitutional President",
+          "positionType": "Constitutional",
+          "startDate": "1950-07-28",
+          "endDate": "1956-07-28",
+          "comingToPowerMethod": "Democratic Election",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+        }
+      ]
+    },
+    {
+      "slug": "zenon-noriega-aguero",
+      "fullName": "Zenón Noriega Agüero",
+      "commonName": "Zenón Noriega Agüero",
+      "gender": "Male",
+      "birthDate": "1900-06-12",
+      "birthPlace": { "city": "Cajamarca", "region": "Cajamarca", "country": "Perú" },
+      "deathDate": "1957-07-07",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President by succession of the Military Junta",
+        "positionType": "Junta",
+        "startDate": "1950-05-10",
+        "endDate": "1950-07-28",
+        "comingToPowerMethod": "Succession",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "ricardo-perez-godoy",
+      "fullName": "Ricardo Pérez Godoy",
+      "commonName": "Ricardo Pérez Godoy",
+      "gender": "Male",
+      "birthDate": "1905-06-09",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "1982-06-26",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President of the Military Government Junta",
+        "positionType": "Junta",
+        "startDate": "1962-07-18",
+        "endDate": "1963-07-03",
+        "comingToPowerMethod": "Coup d'état",
+        "leavingPowerMethod": "Coup d'état",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "nicolas-lindley-lopez",
+      "fullName": "Nicolás Lindley López",
+      "commonName": "Nicolás Lindley López",
+      "gender": "Male",
+      "birthDate": "1908-11-16",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "1995-05-03",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President of the Military Government Junta",
+        "positionType": "Junta",
+        "startDate": "1963-07-03",
+        "endDate": "1963-07-28",
+        "comingToPowerMethod": "Succession",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "fernando-belaunde-terry",
+      "fullName": "Fernando Sergio Marcelo Marcos Belaunde Terry",
+      "commonName": "Fernando Belaunde Terry",
+      "gender": "Male",
+      "birthDate": "1912-10-07",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "2002-06-04",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [
+        {
+          "termNumber": 1,
+          "officialTitle": "Constitutional President",
+          "positionType": "Constitutional",
+          "startDate": "1963-07-28",
+          "endDate": "1968-10-03",
+          "comingToPowerMethod": "Democratic Election",
+          "leavingPowerMethod": "Coup d'état",
+          "mainParty": { "id": "accion-popular", "name": "Acción Popular", "acronym": "AP" }
+        },
+        {
+          "termNumber": 2,
+          "officialTitle": "Constitutional President",
+          "positionType": "Constitutional",
+          "startDate": "1980-07-28",
+          "endDate": "1985-07-28",
+          "comingToPowerMethod": "Democratic Election",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "accion-popular", "name": "Acción Popular", "acronym": "AP" }
+        }
+      ]
+    },
+    {
+      "slug": "juan-velasco-alvarado",
+      "fullName": "Juan Francisco Velasco Alvarado",
+      "commonName": "Juan Velasco Alvarado",
+      "gender": "Male",
+      "birthDate": "1910-06-16",
+      "birthPlace": { "city": "Piura", "region": "Piura", "country": "Perú" },
+      "deathDate": "1977-12-24",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President of the Revolutionary Government of the Armed Forces",
+        "positionType": "De facto",
+        "startDate": "1968-10-03",
+        "endDate": "1975-08-29",
+        "comingToPowerMethod": "Coup d'état",
+        "leavingPowerMethod": "Coup d'état",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "francisco-morales-bermudez",
+      "fullName": "Francisco Morales Bermúdez Cerruti",
+      "commonName": "Francisco Morales Bermúdez",
+      "gender": "Male",
+      "birthDate": "1921-10-04",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "2022-07-14",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President of the Revolutionary Government of the Armed Forces",
+        "positionType": "De facto",
+        "startDate": "1975-08-29",
+        "endDate": "1980-07-28",
+        "comingToPowerMethod": "Coup d'état",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "militar", "name": "Military", "acronym": null }
+      }]
+    },
+    {
+      "slug": "alan-garcia-perez",
+      "fullName": "Alan Gabriel Ludwig García Pérez",
+      "commonName": "Alan García",
+      "gender": "Male",
+      "birthDate": "1949-05-23",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "2019-04-17",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [
+        {
+          "termNumber": 1,
+          "officialTitle": "Constitutional President",
+          "positionType": "Constitutional",
+          "startDate": "1985-07-28",
+          "endDate": "1990-07-28",
+          "comingToPowerMethod": "Democratic Election",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "apra", "name": "APRA", "acronym": "APRA" }
+        },
+        {
+          "termNumber": 2,
+          "officialTitle": "Constitutional President",
+          "positionType": "Constitutional",
+          "startDate": "2006-07-28",
+          "endDate": "2011-07-28",
+          "comingToPowerMethod": "Democratic Election",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "apra", "name": "APRA", "acronym": "APRA" }
+        }
+      ]
+    },
+    {
+      "slug": "alberto-fujimori",
+      "fullName": "Alberto Kenya Fujimori Fujimori",
+      "commonName": "Alberto Fujimori",
+      "gender": "Male",
+      "birthDate": "1938-07-28",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": "2024-09-11",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [
+        {
+          "termNumber": 1,
+          "officialTitle": "Constitutional President",
+          "positionType": "Constitutional",
+          "startDate": "1990-07-28",
+          "endDate": "1995-07-28",
+          "comingToPowerMethod": "Democratic Election",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "cambio-90", "name": "Cambio 90", "acronym": "C90" }
+        },
+        {
+          "termNumber": 2,
+          "officialTitle": "Constitutional President",
+          "positionType": "Constitutional",
+          "startDate": "1995-07-28",
+          "endDate": "2000-07-28",
+          "comingToPowerMethod": "Democratic Election",
+          "leavingPowerMethod": "End of term",
+          "mainParty": { "id": "cambio-90", "name": "Cambio 90", "acronym": "C90" }
+        },
+        {
+          "termNumber": 3,
+          "officialTitle": "Constitutional President",
+          "positionType": "Constitutional",
+          "startDate": "2000-07-28",
+          "endDate": "2000-11-21",
+          "comingToPowerMethod": "Democratic Election",
+          "leavingPowerMethod": "Resignation",
+          "mainParty": { "id": "cambio-90", "name": "Cambio 90", "acronym": "C90" }
+        }
+      ]
+    },
+    {
+      "slug": "valentin-paniagua",
+      "fullName": "Valentín Demetrio Paniagua Corazao",
+      "commonName": "Valentín Paniagua",
+      "gender": "Male",
+      "birthDate": "1936-09-23",
+      "birthPlace": { "city": "Cusco", "region": "Cusco", "country": "Perú" },
+      "deathDate": "2006-10-16",
+      "deathPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Constitutional President",
+        "positionType": "Constitutional",
+        "startDate": "2000-11-22",
+        "endDate": "2001-07-28",
+        "comingToPowerMethod": "Constitutional Succession",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "accion-popular", "name": "Acción Popular", "acronym": "AP" }
+      }]
+    },
+    {
+      "slug": "alejandro-toledo",
+      "fullName": "Alejandro Celestino Toledo Manrique",
+      "commonName": "Alejandro Toledo",
+      "gender": "Male",
+      "birthDate": "1946-03-28",
+      "birthPlace": { "city": "Cabana", "region": "Áncash", "country": "Perú" },
+      "deathDate": null,
+      "deathPlace": null,
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Constitutional President",
+        "positionType": "Constitutional",
+        "startDate": "2001-07-28",
+        "endDate": "2006-07-28",
+        "comingToPowerMethod": "Democratic Election",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "peru-posible", "name": "Perú Posible", "acronym": "PP" }
+      }]
+    },
+    {
+      "slug": "ollanta-humala",
+      "fullName": "Ollanta Moisés Humala Tasso",
+      "commonName": "Ollanta Humala",
+      "gender": "Male",
+      "birthDate": "1962-06-27",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": null,
+      "deathPlace": null,
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Constitutional President",
+        "positionType": "Constitutional",
+        "startDate": "2011-07-28",
+        "endDate": "2016-07-28",
+        "comingToPowerMethod": "Democratic Election",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "gana-peru", "name": "Gana Perú", "acronym": "GP" }
+      }]
+    },
+    {
+      "slug": "pedro-pablo-kuczynski",
+      "fullName": "Pedro Pablo Kuczynski Godard",
+      "commonName": "Pedro Pablo Kuczynski",
+      "gender": "Male",
+      "birthDate": "1938-10-03",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": null,
+      "deathPlace": null,
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Constitutional President",
+        "positionType": "Constitutional",
+        "startDate": "2016-07-28",
+        "endDate": "2018-03-23",
+        "comingToPowerMethod": "Democratic Election",
+        "leavingPowerMethod": "Resignation",
+        "mainParty": { "id": "ppk", "name": "Peruanos Por el Kambio", "acronym": "PPK" }
+      }]
+    },
+    {
+      "slug": "martin-vizcarra",
+      "fullName": "Martín Alberto Vizcarra Cornejo",
+      "commonName": "Martín Vizcarra",
+      "gender": "Male",
+      "birthDate": "1963-03-22",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": null,
+      "deathPlace": null,
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Constitutional President",
+        "positionType": "Constitutional",
+        "startDate": "2018-03-23",
+        "endDate": "2020-11-09",
+        "comingToPowerMethod": "Constitutional Succession",
+        "leavingPowerMethod": "Impeachment Vacancy",
+        "mainParty": { "id": "independiente", "name": "Independent", "acronym": null }
+      }]
+    },
+    {
+      "slug": "manuel-merino",
+      "fullName": "Manuel Arturo Merino de Lama",
+      "commonName": "Manuel Merino",
+      "gender": "Male",
+      "birthDate": "1961-08-20",
+      "birthPlace": { "city": "Tumbes", "region": "Tumbes", "country": "Perú" },
+      "deathDate": null,
+      "deathPlace": null,
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President of the Republic",
+        "positionType": "Interim",
+        "startDate": "2020-11-10",
+        "endDate": "2020-11-15",
+        "comingToPowerMethod": "Constitutional Succession",
+        "leavingPowerMethod": "Resignation",
+        "mainParty": { "id": "accion-popular", "name": "Acción Popular", "acronym": "AP" }
+      }]
+    },
+    {
+      "slug": "francisco-sagasti",
+      "fullName": "Francisco Rafael Sagasti Hochhausler",
+      "commonName": "Francisco Sagasti",
+      "gender": "Male",
+      "birthDate": "1944-10-10",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": null,
+      "deathPlace": null,
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Constitutional President",
+        "positionType": "Constitutional",
+        "startDate": "2020-11-17",
+        "endDate": "2021-07-28",
+        "comingToPowerMethod": "Constitutional Succession",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "partido-morado", "name": "Partido Morado", "acronym": "PM" }
+      }]
+    },
+    {
+      "slug": "pedro-castillo",
+      "fullName": "José Pedro Castillo Terrones",
+      "commonName": "Pedro Castillo",
+      "gender": "Male",
+      "birthDate": "1969-10-19",
+      "birthPlace": { "city": "Puña", "region": "Cajamarca", "country": "Perú" },
+      "deathDate": null,
+      "deathPlace": null,
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Constitutional President",
+        "positionType": "Constitutional",
+        "startDate": "2021-07-28",
+        "endDate": "2022-12-07",
+        "comingToPowerMethod": "Democratic Election",
+        "leavingPowerMethod": "Impeachment Vacancy",
+        "mainParty": { "id": "peru-libre", "name": "Perú Libre", "acronym": "PL" }
+      }]
+    },
+    {
+      "slug": "dina-boluarte",
+      "fullName": "Dina Ercilia Boluarte Zegarra",
+      "commonName": "Dina Boluarte",
+      "gender": "Female",
+      "birthDate": "1962-05-31",
+      "birthPlace": { "city": "Chalhuanca", "region": "Apurímac", "country": "Perú" },
+      "deathDate": null,
+      "deathPlace": null,
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Constitutional President",
+        "positionType": "Constitutional",
+        "startDate": "2022-12-07",
+        "endDate": "2025-10-10",
+        "comingToPowerMethod": "Constitutional Succession",
+        "leavingPowerMethod": "Impeachment Vacancy",
+        "mainParty": { "id": "independiente", "name": "Independent", "acronym": null }
+      }]
+    },
+    {
+      "slug": "jose-jeri",
+      "fullName": "José Enrique Jerí Oré",
+      "commonName": "José Jerí",
+      "gender": "Male",
+      "birthDate": "1986-01-01",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": null,
+      "deathPlace": null,
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President of the Republic",
+        "positionType": "Interim",
+        "startDate": "2025-10-10",
+        "endDate": "2026-02-17",
+        "comingToPowerMethod": "Constitutional Succession",
+        "leavingPowerMethod": "Impeachment Vacancy",
+        "mainParty": { "id": "independiente", "name": "Independent", "acronym": null }
+      }]
+    },
+    {
+      "slug": "jose-maria-balcazar",
+      "fullName": "José María Balcázar Zelaya",
+      "commonName": "José María Balcázar",
+      "gender": "Male",
+      "birthDate": "1943-01-01",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": null,
+      "deathPlace": null,
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "President of the Republic",
+        "positionType": "Interim",
+        "startDate": "2026-02-18",
+        "endDate": "2026-07-28",
+        "comingToPowerMethod": "Constitutional Succession",
+        "leavingPowerMethod": "End of term",
+        "mainParty": { "id": "independiente", "name": "Independent", "acronym": null }
+      }]
+    },
+    {
+      "slug": "keiko-fujimori",
+      "fullName": "Keiko Sofía Fujimori Higuchi",
+      "commonName": "Keiko Fujimori",
+      "gender": "Female",
+      "birthDate": "1975-05-25",
+      "birthPlace": { "city": "Lima", "region": "Lima", "country": "Perú" },
+      "deathDate": null,
+      "deathPlace": null,
+      "photoUrl": null,
+      "dataConfidence": "High",
+      "periods": [{
+        "termNumber": 1,
+        "officialTitle": "Constitutional President",
+        "positionType": "Constitutional",
+        "startDate": "2026-07-28",
+        "endDate": null,
+        "comingToPowerMethod": "Democratic Election",
+        "leavingPowerMethod": "In office",
+        "mainParty": { "id": "fuerza-popular", "name": "Fuerza Popular", "acronym": "FP" }
+      }]
+    }
+  ]
+}
