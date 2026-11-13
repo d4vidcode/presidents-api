@@ -3,18 +3,25 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Presidents API — Historia presidencial, en una API simple</title>
-  <meta name="description" content="API REST bilingüe de presidentes, partidos y países. Rápida, clara y lista para integrar." />
+  <title>Presidents API</title>
+  <meta name="description" content="Bilingual REST API for presidents, parties and countries." />
   <link rel="stylesheet" href="/assets/styles.css" />
 </head>
 <body>
   <nav class="nav">
     <div class="container nav-inner">
       <a class="brand" href="/">Presidents API</a>
-      <div class="menu">
-        <a href="/" data-path="/">Inicio</a>
-        <a href="/docs" data-path="/docs">Documentación</a>
-        <a href="/about" data-path="/about">About</a>
+      <div class="menu-right">
+        <div class="menu">
+          <a href="/" data-path="/" data-i18n="nav.home">Inicio</a>
+          <a href="/docs" data-path="/docs" data-i18n="nav.docs">Documentación</a>
+          <a href="/about" data-path="/about" data-i18n="nav.about">About</a>
+          <a href="https://github.com/d4vidcode/presidents-api" target="_blank" rel="noopener" data-i18n="nav.github">GitHub</a>
+        </div>
+        <div class="lang-switch" aria-label="Language">
+          <button type="button" data-lang-btn="es" class="active">ES</button>
+          <button type="button" data-lang-btn="en">EN</button>
+        </div>
       </div>
     </div>
   </nav>
@@ -22,39 +29,39 @@
   <main>
     <section class="hero">
       <div class="container">
-        <p class="eyebrow reveal">Datos históricos. Diseño moderno.</p>
-        <h1 class="reveal">La historia presidencial,<br>elevada a API.</h1>
-        <p class="lead reveal">Consulta presidentes, partidos y países en inglés y español con endpoints claros, filtros potentes y respuestas consistentes. Pensada para integrarse sin fricción.</p>
+        <p class="eyebrow reveal" data-i18n="hero.eyebrow">Datos históricos. Diseño moderno.</p>
+        <h1 class="reveal" data-i18n="hero.title">La historia presidencial,<br>elevada a API.</h1>
+        <p class="lead reveal" data-i18n="hero.lead">Consulta presidentes, partidos y países en inglés y español con endpoints claros, filtros potentes y respuestas consistentes. Pensada para integrarse sin fricción.</p>
         <div class="actions reveal">
-          <a class="btn btn-primary" href="/docs">Ver documentación</a>
-          <a class="btn btn-secondary" href="/health">Estado del servicio</a>
+          <a class="btn btn-primary" href="/docs" data-i18n="hero.cta.docs">Ver documentación</a>
+          <a class="btn btn-secondary" href="/health" data-i18n="hero.cta.health">Estado del servicio</a>
         </div>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
-        <h2 class="reveal">Simple por fuera. Precisa por dentro.</h2>
-        <p class="sub reveal">Una experiencia de consumo limpia, con datos estructurados y listos para productos, investigación y visualizaciones.</p>
+        <h2 class="reveal" data-i18n="features.title">Simple por fuera. Precisa por dentro.</h2>
+        <p class="sub reveal" data-i18n="features.sub">Una experiencia de consumo limpia, con datos estructurados y listos para productos, investigación y visualizaciones.</p>
         <div class="grid">
           <div class="card reveal">
-            <h3>Bilingüe nativa</h3>
-            <p>Respuestas en <code class="inline">en</code> y <code class="inline">es</code> mediante rutas versionadas <code class="inline">/api/v1/:lang</code>.</p>
+            <h3 data-i18n="features.c1.title">Bilingüe nativa</h3>
+            <p data-i18n="features.c1.text">Respuestas en <code class="inline">en</code> y <code class="inline">es</code> mediante rutas versionadas <code class="inline">/api/v1/:lang</code>.</p>
           </div>
           <div class="card reveal">
-            <h3>Consultas expresivas</h3>
-            <p>Filtra presidentes por país, partido y rango de fechas, con paginación incluida.</p>
+            <h3 data-i18n="features.c2.title">Consultas expresivas</h3>
+            <p data-i18n="features.c2.text">Filtra presidentes por país, partido y rango de fechas, con paginación incluida.</p>
           </div>
           <div class="card reveal">
-            <h3>Modelo consistente</h3>
-            <p>Países, partidos y mandatos con esquemas claros, relaciones y metadatos útiles.</p>
+            <h3 data-i18n="features.c3.title">Modelo consistente</h3>
+            <p data-i18n="features.c3.text">Países, partidos y mandatos con esquemas claros, relaciones y metadatos útiles.</p>
           </div>
         </div>
         <div class="showcase reveal">
           <pre><code>GET /api/v1/es/presidents?country=PE&amp;page=1&amp;limit=5
 
 {
-  "data": [ /* presidentes */ ],
+  "data": [ /* ... */ ],
   "meta": { "total": 78, "page": 1, "limit": 5, "totalPages": 16, "language": "es" }
 }</code></pre>
         </div>
@@ -63,12 +70,22 @@
 
     <section class="section dark">
       <div class="container">
-        <h2 class="reveal">Hecha para construir rápido.</h2>
-        <p class="sub reveal">Menos complejidad, más enfoque en tu producto. Explora la documentación y empieza a consumir datos en minutos.</p>
+        <h2 class="reveal" data-i18n="build.title">Hecha para construir rápido.</h2>
+        <p class="sub reveal" data-i18n="build.sub">Menos complejidad, más enfoque en tu producto. Explora la documentación y empieza a consumir datos en minutos.</p>
         <div class="grid">
-          <div class="card reveal"><h3>REST claro</h3><p>Recursos predecibles: países, partidos y presidentes con búsqueda por código o slug.</p></div>
-          <div class="card reveal"><h3>Respuestas uniformes</h3><p>Formato consistente con <code class="inline">data</code> y <code class="inline">meta</code> para listas y detalles.</p></div>
-          <div class="card reveal"><h3>Listo para escalar</h3><p>Base TypeScript + Fastify + MongoDB, validación y manejo de errores centralizado.</p></div>
+          <div class="card reveal"><h3 data-i18n="build.c1.title">REST claro</h3><p data-i18n="build.c1.text">Recursos predecibles: países, partidos y presidentes con búsqueda por código o slug.</p></div>
+          <div class="card reveal"><h3 data-i18n="build.c2.title">Respuestas uniformes</h3><p data-i18n="build.c2.text">Formato consistente con <code class="inline">data</code> y <code class="inline">meta</code> para listas y detalles.</p></div>
+          <div class="card reveal"><h3 data-i18n="build.c3.title">Listo para escalar</h3><p data-i18n="build.c3.text">Base TypeScript + Fastify + MongoDB, validación y manejo de errores centralizado.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section github-section">
+      <div class="container">
+        <h2 class="reveal" data-i18n="github.title">Código abierto en GitHub</h2>
+        <p class="sub reveal" data-i18n="github.sub">Explora el repositorio, revisa la implementación, reporta issues o contribuye al proyecto.</p>
+        <div class="actions reveal">
+          <a class="btn btn-github" href="https://github.com/d4vidcode/presidents-api" target="_blank" rel="noopener" data-i18n="github.cta">Ver en GitHub</a>
         </div>
       </div>
     </section>
@@ -76,11 +93,10 @@
 
   <footer class="footer">
     <div class="container footer-inner">
-      <div>© 2026 Presidents API</div>
-      <div><a href="/docs">Documentación</a> · <a href="/about">About</a> · <a href="/health">Health</a></div>
+      <div data-i18n="footer.copy">© 2026 Presidents API</div>
+      <div><a href="/docs" data-i18n="footer.docs">Documentación</a> · <a href="/about" data-i18n="footer.about">About</a> · <a href="/health">Health</a> · <a href="https://github.com/d4vidcode/presidents-api" target="_blank" rel="noopener">GitHub</a></div>
     </div>
   </footer>
   <script src="/assets/app.js"></script>
 </body>
 </html>
-

@@ -1,8 +1,12 @@
-﻿import 'dotenv/config';
+﻿import dotenv from 'dotenv';
+
+dotenv.config({ path: '.env.local' });
+dotenv.config();
 import Fastify from 'fastify';
 import cors from '@fastify/cors';
 import fastifyStatic from '@fastify/static';
 import path from 'node:path';
+import { readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { ZodError } from 'zod';
 import { connectDB } from './lib/db.js';
@@ -48,12 +52,12 @@ export function buildApp() {
   });
 
   app.register(cors, { origin: true, credentials: true });
-  app.register(fastifyStatic, { root: publicRoot, prefix: '/assets/', decorateReply: false });
+  app.register(fastifyStatic, { root: path.join(publicRoot, 'assets'), prefix: '/assets/', decorateReply: false });
   app.register(healthRoutes);
 
-  app.get('/', async (_request, reply) => reply.type('text/html').sendFile('index.html', publicRoot));
-  app.get('/docs', async (_request, reply) => reply.type('text/html').sendFile('docs.html', publicRoot));
-  app.get('/about', async (_request, reply) => reply.type('text/html').sendFile('about.html', publicRoot));
+  app.get('/', async (_request, reply) => reply.type('text/html').send(await readFile(path.join(publicRoot, 'index.html'))));
+  app.get('/docs', async (_request, reply) => reply.type('text/html').send(await readFile(path.join(publicRoot, 'docs.html'))));
+  app.get('/about', async (_request, reply) => reply.type('text/html').send(await readFile(path.join(publicRoot, 'about.html'))));
 
   app.register(async (instance) => {
     await instance.register(countriesRoutes, { prefix: '/countries' });

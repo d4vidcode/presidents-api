@@ -1,4 +1,7 @@
-﻿import 'dotenv/config';
+﻿import dotenv from 'dotenv';
+
+dotenv.config({ path: '.env.local' });
+dotenv.config();
 import { readFileSync } from 'fs';
 import { resolve } from 'path';
 import { connectDB, disconnectDB } from '../lib/db.js';

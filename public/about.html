@@ -4,30 +4,37 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>About — Presidents API</title>
-  <meta name="description" content="Sobre Presidents API: propósito, enfoque y tecnología." />
+  <meta name="description" content="About Presidents API." />
   <link rel="stylesheet" href="/assets/styles.css" />
 </head>
 <body>
   <nav class="nav">
     <div class="container nav-inner">
       <a class="brand" href="/">Presidents API</a>
-      <div class="menu">
-        <a href="/" data-path="/">Inicio</a>
-        <a href="/docs" data-path="/docs">Documentación</a>
-        <a href="/about" data-path="/about">About</a>
+      <div class="menu-right">
+        <div class="menu">
+          <a href="/" data-path="/" data-i18n="nav.home">Inicio</a>
+          <a href="/docs" data-path="/docs" data-i18n="nav.docs">Documentación</a>
+          <a href="/about" data-path="/about" data-i18n="nav.about">About</a>
+          <a href="https://github.com/d4vidcode/presidents-api" target="_blank" rel="noopener" data-i18n="nav.github">GitHub</a>
+        </div>
+        <div class="lang-switch" aria-label="Language">
+          <button type="button" data-lang-btn="es" class="active">ES</button>
+          <button type="button" data-lang-btn="en">EN</button>
+        </div>
       </div>
     </div>
   </nav>
 
   <main>
     <section class="about-hero container">
-      <p class="eyebrow reveal">Acerca de</p>
-      <h1 class="reveal">Datos con claridad.<br>Diseño con intención.</h1>
-      <p class="lead reveal" style="max-width:760px;margin:0 auto;">Presidents API nace para hacer accesible la información histórica presidencial mediante una interfaz moderna, consistente y fácil de integrar.</p>
+      <p class="eyebrow reveal" data-i18n="about.eyebrow">Acerca de</p>
+      <h1 class="reveal" data-i18n="about.title">Datos con claridad.<br>Diseño con intención.</h1>
+      <p class="lead reveal" style="max-width:760px;margin:0 auto;" data-i18n="about.lead">Presidents API nace para hacer accesible la información histórica presidencial mediante una interfaz moderna, consistente y fácil de integrar.</p>
       <div class="stats">
-        <div class="stat reveal"><strong>2</strong><span>Idiomas (EN/ES)</span></div>
-        <div class="stat reveal"><strong>3</strong><span>Recursos principales</span></div>
-        <div class="stat reveal"><strong>v1</strong><span>API versionada</span></div>
+        <div class="stat reveal"><strong>2</strong><span data-i18n="about.stat1.label">Idiomas (EN/ES)</span></div>
+        <div class="stat reveal"><strong>3</strong><span data-i18n="about.stat2.label">Recursos principales</span></div>
+        <div class="stat reveal"><strong>v1</strong><span data-i18n="about.stat3.label">API versionada</span></div>
       </div>
     </section>
 
@@ -35,16 +42,16 @@
       <div class="container">
         <div class="grid">
           <div class="card reveal">
-            <h3>Propósito</h3>
-            <p>Ofrecer datos estructurados sobre países, partidos y presidentes para aplicaciones, análisis y proyectos educativos, reduciendo el esfuerzo de modelado y normalización.</p>
+            <h3 data-i18n="about.c1.title">Propósito</h3>
+            <p data-i18n="about.c1.text">Ofrecer datos estructurados sobre países, partidos y presidentes para aplicaciones, análisis y proyectos educativos, reduciendo el esfuerzo de modelado y normalización.</p>
           </div>
           <div class="card reveal">
-            <h3>Enfoque</h3>
-            <p>Rutas predecibles, respuestas uniformes, validación de parámetros y soporte bilingüe. Una experiencia pensada para desarrolladores que valoran la simplicidad.</p>
+            <h3 data-i18n="about.c2.title">Enfoque</h3>
+            <p data-i18n="about.c2.text">Rutas predecibles, respuestas uniformes, validación de parámetros y soporte bilingüe. Una experiencia pensada para desarrolladores que valoran la simplicidad.</p>
           </div>
           <div class="card reveal">
-            <h3>Tecnología</h3>
-            <p>Construida con Fastify, TypeScript y MongoDB/Mongoose, con validación centralizada y pruebas de integración para garantizar calidad y robustez.</p>
+            <h3 data-i18n="about.c3.title">Tecnología</h3>
+            <p data-i18n="about.c3.text">Construida con Fastify, TypeScript y MongoDB/Mongoose, con validación centralizada y pruebas de integración para garantizar calidad y robustez.</p>
           </div>
         </div>
       </div>
@@ -52,11 +59,11 @@
 
     <section class="section dark">
       <div class="container" style="text-align:center;">
-        <h2 class="reveal">Explora la API</h2>
-        <p class="sub reveal">Consulta la referencia completa de endpoints y comienza a integrar datos históricos en tu proyecto.</p>
+        <h2 class="reveal" data-i18n="about.cta.title">Explora la API</h2>
+        <p class="sub reveal" data-i18n="about.cta.sub">Consulta la referencia completa de endpoints y comienza a integrar datos históricos en tu proyecto.</p>
         <div class="actions reveal">
-          <a class="btn btn-primary" href="/docs">Ir a documentación</a>
-          <a class="btn btn-secondary" href="/">Volver al inicio</a>
+          <a class="btn btn-primary" href="/docs" data-i18n="about.cta.docs">Ir a documentación</a>
+          <a class="btn btn-secondary" href="/" data-i18n="about.cta.home">Volver al inicio</a>
         </div>
       </div>
     </section>
@@ -64,11 +71,10 @@
 
   <footer class="footer">
     <div class="container footer-inner">
-      <div>© 2026 Presidents API</div>
-      <div><a href="/">Inicio</a> · <a href="/docs">Documentación</a></div>
+      <div data-i18n="footer.copy">© 2026 Presidents API</div>
+      <div><a href="/" data-i18n="footer.home">Inicio</a> · <a href="/docs" data-i18n="footer.docs">Documentación</a> · <a href="https://github.com/d4vidcode/presidents-api" target="_blank" rel="noopener">GitHub</a></div>
     </div>
   </footer>
   <script src="/assets/app.js"></script>
 </body>
 </html>
-

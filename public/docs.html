@@ -4,93 +4,96 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Documentación — Presidents API</title>
-  <meta name="description" content="Referencia de endpoints, parámetros y ejemplos de Presidents API." />
+  <meta name="description" content="API documentation / Documentación de la API." />
   <link rel="stylesheet" href="/assets/styles.css" />
 </head>
 <body>
   <nav class="nav">
     <div class="container nav-inner">
       <a class="brand" href="/">Presidents API</a>
-      <div class="menu">
-        <a href="/" data-path="/">Inicio</a>
-        <a href="/docs" data-path="/docs">Documentación</a>
-        <a href="/about" data-path="/about">About</a>
+      <div class="menu-right">
+        <div class="menu">
+          <a href="/" data-path="/" data-i18n="nav.home">Inicio</a>
+          <a href="/docs" data-path="/docs" data-i18n="nav.docs">Documentación</a>
+          <a href="/about" data-path="/about" data-i18n="nav.about">About</a>
+          <a href="https://github.com/d4vidcode/presidents-api" target="_blank" rel="noopener" data-i18n="nav.github">GitHub</a>
+        </div>
+        <div class="lang-switch" aria-label="Language">
+          <button type="button" data-lang-btn="es" class="active">ES</button>
+          <button type="button" data-lang-btn="en">EN</button>
+        </div>
       </div>
     </div>
   </nav>
 
   <main>
     <section class="page-head container">
-      <p class="eyebrow">Referencia</p>
-      <h1>Documentación</h1>
-      <p>Todo lo necesario para integrar la API: rutas, parámetros, filtros y formato de respuesta.</p>
+      <p class="eyebrow" data-i18n="docs.head.eyebrow">Referencia</p>
+      <h1 data-i18n="docs.head.title">Documentación</h1>
+      <p data-i18n="docs.head.sub">Todo lo necesario para integrar la API: rutas, parámetros, filtros y formato de respuesta.</p>
     </section>
 
     <section class="section" style="padding-top:30px;">
       <div class="container doc-grid">
         <aside class="toc">
-          <h4>Contenido</h4>
-          <a href="#intro">Introducción</a>
-          <a href="#health">Health</a>
-          <a href="#countries">Países</a>
-          <a href="#parties">Partidos</a>
-          <a href="#presidents">Presidentes</a>
-          <a href="#errors">Errores</a>
+          <h4 data-i18n="docs.toc">Contenido</h4>
+          <a href="#intro" data-i18n="docs.intro">Introducción</a>
+          <a href="#health" data-i18n="docs.health">Health</a>
+          <a href="#countries" data-i18n="docs.countries">Países</a>
+          <a href="#parties" data-i18n="docs.parties">Partidos</a>
+          <a href="#presidents" data-i18n="docs.presidents">Presidentes</a>
+          <a href="#errors" data-i18n="docs.errors">Errores</a>
         </aside>
 
         <div class="doc-content">
           <div id="intro" class="card reveal">
-            <h3>Introducción</h3>
-            <p>Base URL local: <code class="inline">http://localhost:3000</code>. Las rutas de datos usan prefijo de idioma y versión:</p>
+            <h3 data-i18n="docs.intro">Introducción</h3>
+            <p data-i18n="docs.intro.text1">Base URL local: <code class="inline">http://localhost:3000</code>. Las rutas de datos usan prefijo de idioma y versión:</p>
             <div class="endpoint"><span class="method">BASE</span><span class="path">/api/v1/:lang</span></div>
-            <p>Idiomas soportados: <code class="inline">en</code>, <code class="inline">es</code>. Respuestas de lista: <code class="inline">{ data, meta }</code>. Detalle: <code class="inline">{ data }</code>.</p>
+            <p data-i18n="docs.intro.text2">Idiomas soportados: <code class="inline">en</code>, <code class="inline">es</code>. Respuestas de lista: <code class="inline">{ data, meta }</code>. Detalle: <code class="inline">{ data }</code>.</p>
           </div>
 
           <div id="health" class="card reveal">
-            <h3>Health</h3>
+            <h3 data-i18n="docs.health">Health</h3>
             <div class="endpoint"><span class="method">GET</span><span class="path">/health</span></div>
-            <p>Estado del servicio y conexión a base de datos.</p>
+            <p data-i18n="docs.health.text">Estado del servicio y conexión a base de datos.</p>
             <pre><code>{ "status": "ok", "timestamp": "...", "uptime": 12.3, "db": { "connected": true } }</code></pre>
           </div>
 
           <div id="countries" class="card reveal">
-            <h3>Países</h3>
+            <h3 data-i18n="docs.countries">Países</h3>
             <div class="endpoint"><span class="method">GET</span><span class="path">/api/v1/:lang/countries</span></div>
             <div class="endpoint"><span class="method">GET</span><span class="path">/api/v1/:lang/countries/:isoCode</span></div>
             <div class="endpoint"><span class="method">GET</span><span class="path">/api/v1/:lang/countries/:isoCode/presidents</span></div>
-            <p><code class="inline">:isoCode</code> en formato ISO (ej. <code class="inline">PE</code>).</p>
+            <p data-i18n="docs.countries.text"><code class="inline">:isoCode</code> en formato ISO (ej. <code class="inline">PE</code>).</p>
             <pre><code>GET /api/v1/es/countries/PE/presidents</code></pre>
           </div>
 
           <div id="parties" class="card reveal">
-            <h3>Partidos</h3>
+            <h3 data-i18n="docs.parties">Partidos</h3>
             <div class="endpoint"><span class="method">GET</span><span class="path">/api/v1/:lang/parties?country=PE</span></div>
             <div class="endpoint"><span class="method">GET</span><span class="path">/api/v1/:lang/parties/:code?country=PE</span></div>
-            <p>Parámetros: <code class="inline">country</code> (opcional, ISO 2-3). <code class="inline">:code</code> identificador del partido.</p>
+            <p data-i18n="docs.parties.text">Parámetros: <code class="inline">country</code> (opcional, ISO 2-3). <code class="inline">:code</code> identificador del partido.</p>
           </div>
 
           <div id="presidents" class="card reveal">
-            <h3>Presidentes</h3>
+            <h3 data-i18n="docs.presidents">Presidentes</h3>
             <div class="endpoint"><span class="method">GET</span><span class="path">/api/v1/:lang/presidents</span></div>
             <div class="endpoint"><span class="method">GET</span><span class="path">/api/v1/:lang/presidents/:slug</span></div>
-            <p>Filtros soportados:</p>
-            <p>
-              <code class="inline">country</code> (ISO), <code class="inline">party</code> (código),
-              <code class="inline">from</code> (fecha), <code class="inline">to</code> (fecha),
-              <code class="inline">page</code> (≥1), <code class="inline">limit</code> (1-100).
-            </p>
-            <pre><code>GET /api/v1/es/presidents?country=PE&amp;party=apra&amp;from=1985-01-01&amp;to=1990-12-31&amp;page=1&amp;limit=20</code></pre>
+            <p data-i18n="docs.presidents.filters">Filtros soportados:</p>
+            <p data-i18n="docs.presidents.text"><code class="inline">country</code> (ISO), <code class="inline">party</code> (código), <code class="inline">from</code> (fecha), <code class="inline">to</code> (fecha), <code class="inline">page</code> (≥1), <code class="inline">limit</code> (1-100).</p>
+            <pre><code>GET /api/v1/es/presidents?country=PE&amp;from=1985-01-01&amp;page=1&amp;limit=20</code></pre>
           </div>
 
           <div id="errors" class="card reveal">
-            <h3>Errores</h3>
-            <p>Formato consistente para validación y recursos no encontrados:</p>
+            <h3 data-i18n="docs.errors">Errores</h3>
+            <p data-i18n="docs.errors.text1">Formato consistente para validación y recursos no encontrados:</p>
             <pre><code>{
   "error": "Bad Request",
   "message": "Invalid date for \"from\". Expected a valid ISO/date string.",
-  "details": [ /* cuando aplica */ ]
+  "details": [ ]
 }</code></pre>
-            <p>Códigos comunes: <code class="inline">400</code> (parámetros/idioma/fechas inválidos), <code class="inline">404</code> (no encontrado), <code class="inline">500</code> (error interno), <code class="inline">503</code> (health degradado).</p>
+            <p data-i18n="docs.errors.text2">Códigos comunes: <code class="inline">400</code> (parámetros/idioma/fechas inválidos), <code class="inline">404</code> (no encontrado), <code class="inline">500</code> (error interno), <code class="inline">503</code> (health degradado).</p>
           </div>
         </div>
       </div>
@@ -99,11 +102,10 @@
 
   <footer class="footer">
     <div class="container footer-inner">
-      <div>© 2026 Presidents API</div>
-      <div><a href="/">Inicio</a> · <a href="/about">About</a></div>
+      <div data-i18n="footer.copy">© 2026 Presidents API</div>
+      <div><a href="/" data-i18n="footer.home">Inicio</a> · <a href="/about" data-i18n="footer.about">About</a> · <a href="https://github.com/d4vidcode/presidents-api" target="_blank" rel="noopener">GitHub</a></div>
     </div>
   </footer>
   <script src="/assets/app.js"></script>
 </body>
 </html>
-
