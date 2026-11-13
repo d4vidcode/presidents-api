@@ -78,7 +78,15 @@ const start = async () => {
   }
 };
 
-if (process.argv[1] && import.meta.url.endsWith(process.argv[1].replace(/\\/g, '/'))) {
+const isDirectRun = (() => {
+  const entry = process.argv[1];
+  if (!entry) return false;
+  const entryPath = path.resolve(entry);
+  const selfPath = fileURLToPath(import.meta.url);
+  return entryPath === selfPath || entryPath === selfPath.replace(/\.ts$/, '.js');
+})();
+
+if (isDirectRun) {
   start();
 }
 
