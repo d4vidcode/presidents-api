@@ -2,10 +2,10 @@
   "buildCommand": "npm run build",
   "functions": {
     "api/index.js": {
-      "includeFiles": "{dist,public,data}/**"
+      "includeFiles": "dist/**,public/**,data/**"
     }
   },
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index.js" }
+    { "source": "/(.*)", "destination": "/api" }
   ]
 }
