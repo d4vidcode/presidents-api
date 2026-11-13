@@ -52,7 +52,8 @@ export function buildApp() {
   });
 
   app.register(cors, { origin: true, credentials: true });
-  app.register(fastifyStatic, { root: path.join(publicRoot, 'assets'), prefix: '/assets/', decorateReply: false });
+  app.register(fastifyStatic, { root: path.join(__dirname, '../public/assets'), prefix: '/assets/', decorateReply: false });
+  // also allow serving from project public when running from dist
   app.register(healthRoutes);
 
   app.get('/', async (_request, reply) => reply.type('text/html').send(await readFile(path.join(publicRoot, 'index.html'))));

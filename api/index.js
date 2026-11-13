@@ -1,17 +1,21 @@
-﻿let appPromise;
+﻿import { buildApp } from '../dist/server.js';
+import { connectDB } from '../dist/lib/db.js';
+
+let ready;
 
 async function getApp() {
-  if (!appPromise) {
-    appPromise = (async () => {
-      const { buildApp } = await import('../dist/server.js');
-      const { connectDB } = await import('../dist/lib/db.js');
+  if (!ready) {
+    ready = (async () => {
       await connectDB();
       const app = buildApp();
       await app.ready();
       return app;
-    })();
+    })().catch((err) => {
+      ready = undefined;
+      throw err;
+    });
   }
-  return appPromise;
+  return ready;
 }
 
 export default async function handler(req, res) {
