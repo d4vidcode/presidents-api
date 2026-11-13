@@ -20,5 +20,10 @@ async function getApp() {
 
 export default async function handler(req, res) {
   const app = await getApp();
-  app.server.emit('request', req, res);
+  await new Promise((resolve, reject) => {
+    res.on('finish', resolve);
+    res.on('close', resolve);
+    res.on('error', reject);
+    app.server.emit('request', req, res);
+  });
 }
