@@ -1,17 +1,11 @@
 ﻿{
   "buildCommand": "npm run build",
-  "installCommand": "npm install",
   "functions": {
     "api/index.js": {
-      "includeFiles": "dist/**,public/**,data/**"
+      "includeFiles": "{dist,public,data}/**"
     }
   },
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api" },
-    { "source": "/health", "destination": "/api" },
-    { "source": "/docs", "destination": "/api" },
-    { "source": "/about", "destination": "/api" },
-    { "source": "/assets/(.*)", "destination": "/api" },
-    { "source": "/", "destination": "/api" }
+    { "source": "/(.*)", "destination": "/api/index.js" }
   ]
 }
